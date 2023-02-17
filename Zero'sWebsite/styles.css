@@ -1,0 +1,122 @@
+/* Global Styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #e6f1f0;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #212121;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+nav ul li:first-child {
+  margin-left: auto;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ff772e;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #000;
+}
+
+/* Jumbotron Styles */
+.jumbotron {
+  color: #000;
+  background-color: #034495ef;
+  opacity: 50%;
+  margin-bottom: 0;
+  border-radius: 10px;
+}
+
+.jumbotron h1 {
+  margin-top: 50px;
+  font-size: 60px;
+}
+
+/* Showcase Styles */
+.fade-in {
+  animation: fadeIn 1s;
+  -webkit-animation: fadeIn 1s;
+}
+
+
+.about-box {
+  border: 2px solid #1abc9c;
+  background-color: #ecf0f1;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.carousel-item img {
+  height: 500px;
+  width: auto;
+  margin: auto;
+}
+
+/* Contact Me Styles */
+.container h3 {
+  margin-top: 50px;
+  font-size: 40px;
+}
+
+.container p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.container a {
+  color: #0d6efd;
+  font-weight: bold;
+}
+
+.container a:hover {
+  text-decoration: underline;
+}

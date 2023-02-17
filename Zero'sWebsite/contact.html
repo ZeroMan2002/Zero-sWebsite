@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ZeroManYT - Culinary Chef and Game Developer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- Slick Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Slick Carousel JS -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="logo.jpg" alt="ZeroManYT Logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Home Page -->
+<div class="jumbotron text-center">
+    <h1>Welcome to Lord Ryan's Website</h1>
+  </div>
+  
+  <!-- Showcase -->
+  <div class="container fade-in">
+    <h3 class="text-center">Showcase | Food | Game Development</h3>
+    <div class="container mt-5">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width: fit-content;">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/Vegitable_Kabab.png" alt="Vegetable Kabab" style="width: auto;">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Chicken&Rice_Kabab.png" alt="Chicken and Rice" style="max-width: auto;">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Fish&Chips.png" alt="Fish and Chips" style="max-width: auto;">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
+        </a>
+		<a class="carousel-control-next" href="#myCarousel" data-slide="next">
+			<span class="carousel-control-next-icon"></span>
+		</a>
+	</div>
+</div>
+</div>
+<!-- Contact Form -->
+<div class="container-fluid bg-light py-5" id="contact-me">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 text-center mb-4">
+				<h2>Contact Me | Feedback</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 mx-auto">
+				<form action="https://formspree.io/f/moqzdabp" method="POST">
+					<div class="form-group">
+						<label for="name">Name</label>
+						<input type="text" class="form-control" id="name" name="name" required>
+					</div>
+					<div class="form-group">
+						<label for="email">Email</label>
+						<input type="email" class="form-control" id="email" name="_replyto" required>
+					</div>
+					<div class="form-group">
+						<label for="message">Message</label>
+						<textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+					</div>
+					<button type="submit" class="btn btn-primary">Send Message</button>
+				</form>
+			</div>
+		</div>
+		<div class="row mt-5">
+			<div class="col-12 text-center">
+				<a href="https://twitter.com/ZeroManYT"><i class="fab fa-twitter fa-2x mx-3"></i></a>
+				<a href="mailto:toborobotic@gmail.com"><i class="fas fa-envelope fa-2x mx-3"></i></a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Script files -->
+<script src="https://kit.fontawesome.com/8d24d861f7.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
